@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/horizontal_block_1"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_12"
+                android:layout_width="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_13"
+                android:layout_width="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_14"
+                android:layout_width="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_15"
+                android:layout_width="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/bg_edt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_block_2"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_21"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_25"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_block_3"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_31"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_32"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_33"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_34"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_35"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_block_4"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_41"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_42"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_43"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_44"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_45"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_block_5"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_51"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_52"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_53"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_54"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_55"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horizontal_block_6"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edt_61"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_62"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_63"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_64"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+            <EditText
+                android:id="@+id/edt_65"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:maxLength="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:background="@drawable/bg_edt" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_validate_1"
+            android:text="Validate"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_validate_2"
+            android:text="Validate"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
