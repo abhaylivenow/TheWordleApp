@@ -4,6 +4,7 @@ import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -129,12 +130,16 @@ class MainActivity : AppCompatActivity() {
 
         if(edt1Text == word1 && edt2Text == word2 && edt3Text == word3 && edt4Text == word4 && edt5Text == word5) {
             Toast.makeText(this, "Congratulations, You Guessed The Word Right!!", Toast.LENGTH_SHORT).show()
+            binding.text.visibility = View.VISIBLE
+            binding.text.text = "Congratulations, You Guessed The Word Right!!"
             makeGameInactive()
             return
         }
 
         if(edt5.id == R.id.edt_65) {
             Toast.makeText(this, "Sorry, You couldn't guess the word :((", Toast.LENGTH_SHORT).show()
+            binding.text.visibility = View.VISIBLE
+            binding.text.text = "Sorry, You couldn't guess the word :(("
             makeGameInactive()
             return
         }
